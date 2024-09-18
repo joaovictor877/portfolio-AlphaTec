@@ -286,8 +286,7 @@ section.contato h2 {
     transition: .2s;
 }
 
-/* ESTILO de Imagens e videos */
-
+/* ESTILO de Imagens e Videos */
 section.imagens {
     padding: 80px 0;
     box-shadow: 0 0 40px 0px #ffffff25;
@@ -301,12 +300,20 @@ section.imagens h2 {
     margin-bottom: 40px;
 }
 
-/* estilo rodapé */
+/* Ajuste do tamanho das imagens no carrossel */
+.carousel-inner img {
+    width: 100%;      /* Assegura que a imagem ocupe 100% da largura do container */
+    height: auto;     /* Mantem a proporção da imagem */
+    max-height: 600px; /* Limita a altura máxima da imagem */
+    object-fit: cover; /* Faz com que a imagem cubra todo o espaço sem distorção */
+}
+
+/* Estilo do rodapé */
 footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    
 }
+
 
 
