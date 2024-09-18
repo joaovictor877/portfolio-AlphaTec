@@ -74,14 +74,15 @@ header nav ul{
     list-style-type: none;
 }
 
-header nav ul li{
+header nav ul li {
     display: inline-block;
     padding: 0 40px;
+    text-decoration: none;
 }
 
 button:hover{
     box-shadow: 0px 0px 8px #fff;
-    transform: scale(1.05);
+    transform: scale(1.05) ease;
     
 }
 
@@ -166,9 +167,6 @@ section.projetos {
     line-height: 1.6;
 }
 
-
-
-
 /* estilo pagina 2 */
 section.educacao {
     padding: 60px 0;
@@ -214,7 +212,13 @@ section.educacao h2 {
     width: 24px;
     height: 24px;
     margin-right: 10px;
+    transition: transform 0.3s ease; 
 }
+
+.software-logo:hover {
+    transform: scale(1.2);
+}
+
 
 /* estilo sobre mim */
 section.sobre {
