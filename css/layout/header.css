@@ -1,0 +1,33 @@
+
+/* estilo do cabeçalho */
+header{
+    padding: 0px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #f7eded; 
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s; /* tempo de transição */
+}
+
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li {
+    align-items: center;
+    display: inline;
+    padding: 17px;
+    text-decoration: none;
+}

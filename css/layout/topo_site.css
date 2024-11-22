@@ -1,0 +1,30 @@
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+/* estilo topo do site */
+section.topo-do-site{
+    padding: 60px 0;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #ffffff;
+    margin: 40px 0;
+}

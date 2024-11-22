@@ -1,0 +1,50 @@
+section.educacao {
+    padding: 60px 0;
+    /*background-color: rgb(92, 165, 192);*/  
+}
+
+section.educacao h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom:40px;
+}
+
+.educacao-card {
+    background-color: rgb(29, 25, 50);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 50px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Adiciona uma sombra suave */
+}
+
+.educacao-card h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.educacao-card p {
+    color: #ccc;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.software-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.software-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.software-logo:hover {
+    transform: scale(1.2);
+}

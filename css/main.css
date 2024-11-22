@@ -1,0 +1,12 @@
+@import "./layout/header.css";
+@import "./core/variables.css";
+@import "./core/typography.css";
+@import "./layout/link.css";
+@import "./layout/nav.css";
+@import "./module/button.css";
+@import "./core/reset.css";
+@import "./module/image.css";
+@import "./layout/educacao.css";
+@import "./layout/projetos.css";
+@import "./layout/sobre.css";
+@import "./layout/topo_site.css";

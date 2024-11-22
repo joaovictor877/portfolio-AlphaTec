@@ -1,0 +1,39 @@
+/* Estilo os */
+section.projetos {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.projetos h2{
+    font-size: 2.5rem;
+    color: #04b1d4;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: -3px;
+    padding-bottom: 8px;
+}
+
+.projetos-conteudo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.projeto-card {
+    width: 85%;
+}
+
+.projeto-card h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.projeto-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+.projeto-tec{
+    padding-top: 45px;
+}
