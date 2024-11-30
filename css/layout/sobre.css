@@ -31,12 +31,14 @@ section.sobre h3{
     text-align: left;
     box-shadow: 0 0 10px #ffffff25; /* Adiciona sombra ao card */
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .sobre-card p {
     color: #666; /* Cor da descrição */
     font-size: 16px;
     line-height: 1.6;
+    margin-bottom: 10px;
 }
 
 /* estilo contato em cima ta dentro*/
@@ -49,3 +51,10 @@ section.contato h2 {
     font-size: 36px;
     color: #ffffff;
     margin-bottom: 40px;}
+
+#names {
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
