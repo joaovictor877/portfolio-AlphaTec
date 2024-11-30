@@ -28,7 +28,7 @@
                         <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projetos">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#ferramentas">Ferramentas</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projets">Projeto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#fluxograma">Fluxograma</a></li>
                         <li class="nav-item"><a class="nav-link" href="#imagens">Imagens</a></li>
                     </ul>
                 </div>
@@ -52,34 +52,48 @@
         </section>
 </body>
     <!--página 2 -->
-<section class="educacao" id="ferramentas">
-    <div class="interface">
-        <h2>Ferramentas Utilizadas</h2>
-        <div class="flex">
-            <div class="educacao-card">
-                    <h3>Softwares Utilizados</h3>
-                    
-            <div class="software-item">
-                <a href="https://cad.onshape.com/documents/400d2fec0e50be37614481a5/w/b8b9591c183f6ad7b9da8669/e/718e1798511dfc02bbc22d1a" target="_blank">
-                <img src="images/onshape-vector-logo-2022.svg" alt="Solidworks Logo" class="software-logo">
-                </a>
-                    <p>Onshape para modelagem do chassi</p>
-                    </div>
-                        
-            <div class="software-item">
-                    <a href="https://code.visualstudio.com/" target="_blank">
-                        <img src="images/vscode-svgrepo-com.svg" alt="Visual Studio Code Logo" class="software-logo">
+    <section class="educacao" id="ferramentas">
+        <div class="interface">
+            <h2 class="titulo">Ferramentas Utilizadas</h2>
+            <div class="ferramentas-container">
+                <div class="ferramenta-card">
+                    <a href="https://cad.onshape.com/documents/400d2fec0e50be37614481a5/w/b8b9591c183f6ad7b9da8669/e/718e1798511dfc02bbc22d1a" target="_blank">
+                        <img src="images/onshape-vector-logo-2022.svg" alt="Onshape Logo" class="ferramenta-logo">
                     </a>
-                    <p>Visual Studio Code para criação do portfólio do projeto</p>
+                    <h3>Onshape</h3>
+                    <p>Modelagem do chassi</p>
                 </div>
-            <div class="software-item">
-                    <a href="https://www.arduino.cc/en/software" target="_blank">
-                        <img src="images/arduino-svgrepo-com.svg" alt="Arduino Logo" class="software-logo">
+                <div class="ferramenta-card">
+                    <a href="https://code.visualstudio.com/" target="_blank">
+                        <img src="images/vscode-svgrepo-com.svg" alt="Visual Studio Code Logo" class="ferramenta-logo">
                     </a>
-                    <p>Aplicativo Arduino para fazer a parte de movimentação autônoma do carro</p>
+                    <h3>Visual Studio Code</h3>
+                    <p>Criação do portfólio do projeto</p>
+                </div>
+                <div class="ferramenta-card">
+                    <a href="https://www.arduino.cc/en/software" target="_blank">
+                        <img src="images/arduino-svgrepo-com.svg" alt="Arduino Logo" class="ferramenta-logo">
+                    </a>
+                    <h3>Arduino</h3>
+                    <p>Movimentação autônoma do carro</p>
+                </div>
+                <div class="ferramenta-card">
+                    <a href="https://miro.com/pt/" target="_blank">
+                        <img src="images/miro-svgrepo-com (4).svg" alt="miro Logo" class="ferramenta-logo">
+                    </a>
+                    <h3>Miro</h3>
+                    <p>Aplicação para produção do Fluxograma</p>
+                </div>
+                <div class="ferramenta-card">
+                    <a href="https://senacspedu-my.sharepoint.com/:p:/g/personal/arthur_bfernandes_senacsp_edu_br/EUBOyXovE7lBvoCju5nQTtsBXHb4qr4X3Df1U-J-ZJpA6g?e=mTI9kI" target="_blank">
+                        <img src="images/powerpoint-svgrepo-com (1).svg" alt="powerpoint Logo" class="ferramenta-logo">
+                    </a>
+                    <h3>PowerPoint</h3>
+                    <p>Criação do Caderno</p>
                 </div>
             </div>
-                
+        </div>
+    </section>
             <!-- Novo bloco -->
             <div class="educacao-card">
                 <h3>Componentes Usados</h3>
@@ -93,7 +107,25 @@
             </div>
         </div>
     </div>
-
+    <section class="fluxograma-section" id="fluxograma">
+        <div class="interface">
+            <h2 class="titulo">Fluxograma do Projeto</h2>
+            <div class="fluxograma-grid">
+                <img src="images/fluxo-do-projeto.jpeg" alt="Fluxograma do Projeto Alphatec" class="fluxograma-img" onclick="openModal(this)">
+                <img src="images/fluxo-do-carrinho1.jpeg" alt="Fluxograma do Carrinho - Parte 1" class="fluxograma-img" onclick="openModal(this)">
+                <img src="images/fluxo-do-carrinho2.jpeg" alt="Fluxograma do Carrinho - Parte 2" class="fluxograma-img" onclick="openModal(this)">
+                <img src="images/fluxo-do-site.jpeg" alt="Fluxograma do Site" class="fluxograma-img" onclick="openModal(this)">
+            </div>
+        </div>
+    </section>
+    <!-- Modal para exibir a imagem em tela cheia -->
+    <div class="modal" id="modal">
+        <span class="close" id="closeModal">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+    
+    
+    
     <!--página sobre mim-->
     <section class="sobre" id="sobre">
         <div class="interface">

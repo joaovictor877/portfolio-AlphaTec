@@ -14,7 +14,7 @@ section.educacao h2 {
     background-color: rgb(29, 25, 50);
     padding: 20px;
     border-radius: 10px;
-    margin: 0 50px;
+    margin: 0 50px 50px; 
     text-align: left;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Adiciona uma sombra suave */
 }
@@ -37,6 +37,7 @@ section.educacao h2 {
     align-items: center;
     margin-bottom: 10px;
 }
+
 
 .software-logo {
     width: 24px;
