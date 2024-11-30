@@ -50,11 +50,119 @@ section.contato h2 {
     text-align: center;
     font-size: 36px;
     color: #ffffff;
-    margin-bottom: 40px;}
+    margin-bottom: 40px;
+}
 
 #names {
     color: black;
     margin-bottom: 20px;
-    font-weight: bold;
+    font-weight: 6px;
 
+}
+
+/* Seção de fluxograma */
+.fluxograma-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.fluxograma-section .titulo {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+/* Grade de fluxogramas */
+.fluxograma-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Colunas responsivas */
+    gap: 1rem; /* Espaço entre as imagens */
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px; /* Limita a largura total */
+    margin: 0 auto; /* Centraliza a grade */
+}
+
+/* Estilo das imagens */
+.fluxograma-img {
+    width: 100%; /* As imagens ocupam a largura da coluna */
+    height: auto; /* Mantém a proporção */
+    border: 1px solid #ddd; /* Borda discreta */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: transform 0.3s; /* Efeito ao passar o mouse */
+}
+
+.fluxograma-img:hover {
+    transform: scale(1.05); /* Aumenta levemente ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .fluxograma-section .titulo {
+        font-size: 1.5rem;
+    }
+}
+
+/* Estilo da seção Ferramentas */
+.ferramentas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.ferramenta-card {
+    background: #f9f9f9; /* Fundo suave */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    text-align: center;
+    padding: 1.5rem;
+    width: 300px; /* Tamanho fixo para cada card */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ferramenta-card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.ferramenta-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ferramenta-card:hover .ferramenta-logo {
+    transform: rotate(10deg); /* Animação sutil no logo ao passar o mouse */
+}
+
+.ferramenta-card h3 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+    color: #333;
+    font-weight: 600;
+}
+
+.ferramenta-card p {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .ferramenta-card {
+        width: 100%; /* Cards ocupam 100% da largura em telas menores */
+    }
+
+    .ferramentas-container {
+        padding: 1rem;
+    }
 }
