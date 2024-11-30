@@ -15,3 +15,39 @@ body{
     background-size: 300% 300%;
     background-position: top left;
 }
+
+
+
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+}
+
+/* Estilo da imagem no topo */
+.topo-do-site img {
+    max-width: 100%; /* Adapta a largura ao container */
+    height: auto; /* Mantém a proporção */
+    max-height: 400px; /* Define um limite fixo para a altura */
+    border-radius: 10px; /* Borda arredondada (opcional) */
+}
+
+/* Botão no texto */
+.btn-primary {
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 9px;
+}
+
+/* Responsividade adicional */
+@media (max-width: 768px) {
+    .topo-do-site .row {
+        text-align: center;
+    }
+
+    .topo-do-site .col-md-6 {
+        margin-bottom: 1.5rem;
+    }
+}
