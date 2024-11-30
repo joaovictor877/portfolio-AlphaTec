@@ -30,6 +30,7 @@ section.sobre h3{
     border-radius: 10px;
     text-align: left;
     box-shadow: 0 0 10px #ffffff25; /* Adiciona sombra ao card */
+    margin-left: 10px;
 }
 
 .sobre-card p {

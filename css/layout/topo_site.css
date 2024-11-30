@@ -9,6 +9,7 @@
 /* estilo topo do site */
 section.topo-do-site{
     padding: 60px 0;
+    display: flex;
 }
 
 section.topo-do-site .flex{
